@@ -6,7 +6,7 @@ sonarqubeScanner(
         options: {
             'sonar.projectName': 'PROJECT_NAME',
             'sonar.projectKey': 'PROJECT_KEY',
-            'sonar.sources': '.',
+            'sonar.sources': 'apps/api/src',
         },
     },
     () => {},

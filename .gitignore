@@ -1,0 +1,27 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# build
+dist
+.turbo
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+logs
+*.log
+
+# coverage
+coverage
+
+# IDE
+.idea
+.vscode
+*.swp
+
+# OS
+.DS_Store

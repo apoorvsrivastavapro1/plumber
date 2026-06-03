@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": ["src/*"],
+      "@api/typeorm.config": ["typeorm.config.ts"]
+    },
+    "allowJs": true
+  },
+  "include": ["src/**/*", "typeorm.config.ts"],
+  "exclude": ["node_modules", "dist", "**/*spec.ts"]
+}
