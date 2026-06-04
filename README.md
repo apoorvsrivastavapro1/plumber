@@ -1,4 +1,4 @@
-# File Processing Pipeline
+# Modular mono repo setup
 
 Modular monolith monorepo for file processing (NestJS API + future Next.js web app).
 
